@@ -1,0 +1,13 @@
+numpy
+scikit-learn
+pandas==1.1.5
+tqdm
+pyyaml==5.4.1
+nltk
+matplotlib
+captum
+IPython
+wordcloud
+# conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+pytorch==1.10.2
+transformers==4.16.2
