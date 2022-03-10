@@ -33,11 +33,13 @@ Update all paths and configuration in 'mmtransformer/config.py'.
 ## Test
 
 For model with only clinical notes (mbert), run
+
 '
 python mbert.py --gpu_id 1
 '
 
 For multimodal transformer, run
+
 '
 python IHM_mmtransformer.py --mode test --model_type both --model_name BioBert --TSModel Transformer --checkpoint_path Multimodal_Transformer --MaxLen 512 --NumOfNotes 0 --TextModelCheckpoint BioClinicalBERT_FT --freeze_model 1 --number_epoch 5 --batch_size 5 --load_model 1 --gpu_id 1
 '
@@ -45,6 +47,7 @@ python IHM_mmtransformer.py --mode test --model_type both --model_name BioBert -
 ## Train
 
 For multimodal transformer training, run
+
 '
 python IHM_mmtransformer.py --mode train --model_type both --model_name BioBert --TSModel Transformer --checkpoint_path Multimodal_Transformer --MaxLen 512 --NumOfNotes 0 --TextModelCheckpoint BioClinicalBERT_FT --freeze_model 1 --number_epoch 5 --batch_size 5 --load_model 0 --gpu_id 1
 '
