@@ -30,6 +30,8 @@ Update all paths and configuration in 'mmtransformer/config.py'.
 
 # Train and Test
 
+For our well-trained model, you can download from [GoogleDrive](https://drive.google.com/file/d/1Wch0pEgQ8PeWE9p77B6rdNuo9l28CZNv/view?usp=sharing). Unzip the file and put them in './Multimodal_Transformer/mmtransformer/models/Checkpoints' and './Multimodal_Transformer/mmtransformer/models/Data' accordingly. Or you can generate the files yourself.
+
 ## Test
 
 For model with only clinical notes (mbert), run
