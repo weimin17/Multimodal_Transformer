@@ -16,9 +16,9 @@ Clinical Notes processing is based on repository in https://github.com/kaggarwal
 ### Requirenments
 setup the environment for notes processing and model training. Install environment:
 
-'''
+~~~~
 pip install -r requrements.txt
-'''
+~~~~
 
 Update all paths and configuration in 'mmtransformer/config.py'. 
 
@@ -36,23 +36,23 @@ For our well-trained model, you can download from [GoogleDrive](https://drive.go
 
 For model with only clinical notes (mbert), run
 
-'
+~~~~
 python mbert.py --gpu_id 1
-'
+~~~~
 
 For multimodal transformer, run
 
-'
+~~~~
 python IHM_mmtransformer.py --mode test --model_type both --model_name BioBert --TSModel Transformer --checkpoint_path Multimodal_Transformer --MaxLen 512 --NumOfNotes 0 --TextModelCheckpoint BioClinicalBERT_FT --freeze_model 1 --number_epoch 5 --batch_size 5 --load_model 1 --gpu_id 1
-'
+~~~~
 
 ## Train
 
 For multimodal transformer training, run
 
-'
+~~~~
 python IHM_mmtransformer.py --mode train --model_type both --model_name BioBert --TSModel Transformer --checkpoint_path Multimodal_Transformer --MaxLen 512 --NumOfNotes 0 --TextModelCheckpoint BioClinicalBERT_FT --freeze_model 1 --number_epoch 5 --batch_size 5 --load_model 0 --gpu_id 1
-'
+~~~~
 
 
 # Visualization
