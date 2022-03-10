@@ -15,9 +15,10 @@ Clinical Notes processing is based on repository in https://github.com/kaggarwal
 
 ### Requirenments
 setup the environment for notes processing and model training. Install environment:
-'
+
+'''
 pip install -r requrements.txt
-'
+'''
 
 Update all paths and configuration in 'mmtransformer/config.py'. 
 
