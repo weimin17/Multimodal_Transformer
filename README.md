@@ -2,7 +2,7 @@
 The repository for the paper "A Multimodal Transformer: Fusing Clinical Notes With Structured EHR Data for Interpretable In-Hospital Mortality Prediction" submitted to AMIA'22 Annual Symposium.
 
 # Setup
-The codes is tested in CUDA 11.4 with 24GB RAM GPU. For environment setup, please follow the install instruction in Section 'Clinical Data Processing'. 
+The codes are tested on CUDA 11.4 with 24GB RAM GPU. For environment setup, please follow the install instruction in Section 'Clinical Data Processing'. 
 
 # Clinical Data Processing
 ## Structured Clinical Variables Processing
