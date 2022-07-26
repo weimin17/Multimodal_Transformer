@@ -66,5 +66,7 @@ It will also generate the word cloud 'filter_pred_tokenlist_top10_l0_2.png'.
 
 
 # Credits
-The code is based on repository by Khadanga et al. given in https://github.com/kaggarwal/ClinicalNotesICU for experimental setup.
+The code is based on repository by Khadanga et al. given in https://github.com/kaggarwal/ClinicalNotesICU, and by Deznabi et al. given in https://github.com/Information-Fusion-Lab-Umass/ClinicalNotes_TimeSeries for experimental setup.
+
+
 The MIMIC-III clinical variables pre-processing is clone from repository by Harutyunyan et al. given in https://github.com/YerevaNN/mimic3-benchmarks
